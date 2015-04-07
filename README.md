@@ -18,3 +18,5 @@
 * `$ python manage.py runserver`
 
 #full tutorial https://thinkster.io/django-angularjs-tutorial/
+
+link to django tutorial: https://docs.djangoproject.com/en/1.8/intro/tutorial01/
