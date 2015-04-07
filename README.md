@@ -17,3 +17,4 @@
 * `$ python manage.py migrate`
 * `$ python manage.py runserver`
 
+#full tutorial https://thinkster.io/django-angularjs-tutorial/
