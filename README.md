@@ -17,6 +17,16 @@
 * `$ python manage.py migrate`
 * `$ python manage.py runserver`
 
-#full tutorial https://thinkster.io/django-angularjs-tutorial/
+[full tutorial](https://thinkster.io/django-angularjs-tutorial/)
 
-link to django tutorial: https://docs.djangoproject.com/en/1.8/intro/tutorial01/
+Make sure account serializer is working
+```
+>>> from authentication.models import Account
+>>> from authentication.serializers import AccountSerializer
+>>> account = Account.objects.latest('created_at')
+>>> serialized_account = AccountSerializer(account)
+>>> serialized_account.data.get('email')
+>>> serialized_account.data.get('username')
+```
+
+
